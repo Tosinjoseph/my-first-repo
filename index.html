@@ -4,54 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My webpage</title>
+    <title>Order summary component</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div class="nav-bar">
-        <div class="logo" >
-         <h1>T<span class="de">os</span>iN</h1>
-        </div> 
-        <div class="menu">
-            <ul>
-             <li><a href="#">HOME</a></li>
-             <li><a href="#">ABOUT</a></li>
-             <li><a href="#">SERVICES</a></li>
-             <li><a href="#">CONTACT</a></li>
-            </ul>
-        </div> 
-        </div>
-        <div class="content">
-            <h1>Hi I'm Tosin<br><span class="front">Front-end developer</span></br></h1>
-            <p>Seasoned experience in web development<br> and design disposing creative works</br>with all vividity and glamour!</p>
-            <div class="btn">
-                <a href="#"><button type="Contact">Hit me up</button></a>  
-               </div>
-               <div class="form">
-                <h1 class="login">Login here </h1>
-                <input type="email" name="" placeholder="Input Email Here">
-                <input type="password" name="" placeholder="Enter Password Here">
-               <a href="#" ><button class="btnn" type="login">log in</button></a>
-               <h2>Don't have an account?<br><a href="#">Sign up</a> here</br></h2>
-                <h2>Login with</h2>
-                <div class="icons">
-                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                </div>
-               </div>
-               <div class="media">
-                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-skype"></ion-icon></a>  
-            </div>
-        </div>
-        
+ <div class="container">
+    <div class="top-img"><img src="images/illustration-hero.svg"></div>
+    <div class="info">
+        <h1>Order Summary</h1>
+        <p>You can now listen to million of songs,<br>audiobooks,and podcasts on any device<br> anywhere you go!</p>
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    
+    <div class="items">
+        <img src="images/icon-music.svg"><h2>Annual Plan<br><span class="sub">$59.99/year</span></h2>
+        <a href="#"><p>Change</p></a>
+    </div>
+    <button class="btn">Proceed to Payment</button>
+    <div class="cancel"><a href="#"><h3>Cancel order</h3></a></div>  
+ </div> 
+ 
 </body>
-</html>
+</html> 

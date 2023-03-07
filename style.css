@@ -1,493 +1,96 @@
 *{
-    margin: none;
-    padding: none;
+    margin: 0px;
+    padding: 0px;
 }
-.main{
-    height: 90vh;
-    width: 100%;
-    background-position: cover;
-    background-color: rgb(199, 193, 224);
-    margin:none;
-}
-  .nav-bar{
-    height: 70px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
- .logo{
-    height: 60px;
-    width: 100px;
-    float: left;
-}
-.logo h1{
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    font-size: 26px;
-    margin-left: 15px;
-    margin-top: 25px;
-    
-}
-.de{
-    color:rgb(65, 65, 156);
-}
-.menu{
-    width: 300px;
-    height: 20px;
-    justify-content: center;
-    align-items: center;
-    margin: none;
-    float: right;
-}
-.menu ul{
-    display: flex;
-    list-style: none;
-    float: right;
-    margin-top: 30px;
-    height: 20px;
-    font-weight: bold;
-
-    
-}
-.menu ul li a{
-    margin-right: 90px;
-    text-decoration: none;
-    padding-top: 100px;
-    
-}
-
-
-li a:hover{
-    color: white;
-}
-.content h1{
-    font-family: sans-serif;
-    color: black;
-    font-size: 40px;
-}
-.front{
-    color:rgb(32, 4, 160);
-    font-family: Arial;
-    font-size: 22px;
-    margin-bottom: 8px;
-    
-}
-.content{
-    float: left;
-    margin-top: 90px;
-    margin-left: 80px;
-}
-.content p{
-    font-weight: bold;
-    font-family: Arial;
-    font-size: 15px;
-    line-height:25px ;
-}
-
-.btn{
-    float: left;
-    
-}
-.btn a button{
-    width: 90px;
-    height: 30px;
-    background-color: rgb(84, 84, 177);
-    border: none;
-    color: white;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 15px;
-    border-radius: 5px;
-    transition: 0.5s ease-in-out;
-    margin-top: 15px;
-}
-.btn a button:hover{
+.container{
+    height: 650px;
+    width: 500px;
     background-color: white;
-    color: black;
+    margin-left: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 10px 10px -5px;
 }
-
-
-.form{
-    position: absolute;
-    height: 50vh;
-    width: 20%;
-    background: linear-gradient(rgb(149, 149, 206), rgb(73, 54, 179));
-    margin-left: 900px;
-    margin-top: -300px;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    border-radius: 5px;
+.top-img  img{
+    width: 500px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.form h1{
-    font-family: monospace;
-    font-size: 25px;
+.info h1{
     text-align: center;
-    color:rgb(0, 0, 193);
-
+    font-family: Helvetica;
+    font-size: 25px;
+    padding: 20px;
 }
-     
-
-.form input{
-    width: 80%;
-    height: 40px;
-    margin-left: 15px;
-    margin-right: auto;
-    font-family: sans-serif;
-    font-weight: bold;
-    background-color: transparent;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-bottom: 1px solid white ;
-    letter-spacing: 1px;
-    padding-bottom:0px ;
+.info p{
+    text-align: center;
+}
+.items{
+    margin-left: 50px;
+    width: 400px;
+    background-color: aliceblue;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 20px;
     
 }
-::placeholder{
-    color: white;
-    padding-bottom: 0px;
+.items img{
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
-.form button{
-    width: 60%;
-    height: 40px;
-    margin-top: 10%;
-    margin-left: 55px;
-    margin-right: auto;
-    background-color: rgb(65, 65, 156);
-    border: none;
-    border-radius: 5px;
-    
-    
+.sub{
+    font-weight: lighter;
+}
+.items h2{
+ font-size: 15px;   
+ margin-left: 100px;
+ margin-top: -35px;
+ 
+}
+.items p{
+margin-left: 290px;
+margin-top: -25px;
+font-family: sans-serif;
+transition: 0 ease-in-out;
 
 }
-.btnn{
-    color: black;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
+.items p:hover{
+    color: red;
     cursor: pointer;
 }
-.btnn:hover{
-background-color: white;
-color: red;
-}
-h2{
-    font-family: sans-serif;
-    font-size: 15px;
-    text-align: center;
-    color: white;
-}
-h2 a{
-    color:rgb(0, 0, 193);
+.items a{
     text-decoration: none;
-    transition: 0.4s ease-in-out;
 }
-h2 a:hover{
+.btn{
+    width: 400px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(22, 22, 244);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.btn:hover{
+    color: black;
+
+}
+.cancel h3{
+    text-align: center;
+    margin-top: 40px;
+    font-family:sans-serif;
+    font-size: 15px;
+
+}
+.cancel a{
+    text-decoration: none;
+
+}
+.cancel a:hover{
     color: red;
 }
-.icons a{
-    color:rgb(0, 0, 193);
-    margin-left:20px;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    transition: 0.4s ease-in-out;
-}
-.icons{
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    
-}
-.icons a:hover{
-color: white;
-}
-
-.media{
-    position: absolute;
-    float: none;
-    margin-left: -70px;
-    margin-top: -200px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    
-    
-    
-
-}
-.media a{
-    margin-top: 30px;
-    font-size: 25px;
-    color:rgb(65, 65, 156);
-    transition: 0.4s ease-in-out;
-
-}
-    .media a:hover{
-        color: white;
-    }
-
-    @media screen and (max-width: 540px) {
-    .nav-bar{
-        width: 100%;
-        height: 100px;
-    }
-    .main{
-        width: 100%;
-        height: 160vh;
-    }
-    ul{
-        margin-left: 0 auto;
-    }
-    ul li{
-        margin-left: -80px;
-        margin-right: -45px;
-        text-justify: ;
-    }
-    ul li a{
-        margin-left: 45px;
-        font-size: 14px;
-    }
-    .content h1{
-        font-size: 35px;
-    }
-    .front{
-        font-size: 18px;
-    }
-    .content p{
-       
-        font-size: 12px;
-    }
-    .logo{
-        justify-content: center;
-    }
-    .logo h1{
-        text-align: center; 
-    margin-left: 140px;   }
-
-    .form{
-        float: left;
-        margin-left: -30px;
-        width: 60%;
-        margin-top: 60%;
-    }
-    .form h1{
-        font-size: 25px;;
-    }
-    ::placeholder{
-        font-size: 12px;
-    }
-    .form button{
-    margin-left: 0 auto;
-    width: 50%;
-    height: 36px;
-    }
-    .btnn{
-        font-size: 16px;
-    }
-    h2{
-        font-size: 13px;
-    }
-    h2 a{
-        font-size: 13px;
-    }
-    .icons a{
-        margin-left: 15px;
-    }
-    .icons{
-        margin-top: 16px;
-    }
-} 
-   @media screen and (min-width: 720px) {
-    .nav-bar{
-        width:100%; 
-        height: 100px;
-    }
-    .main{
-        width: 100%;
-        height:140vh;
-    }
-    
-
-    ul li a{
-     
-        font-size: 18px;
-    }
-    .content h1{
-        font-size: 45px;
-    }
-    .front{
-        font-size: 29px;
-    }
-    .content p{
-       
-        font-size: 19px; 
-    }
-    
-
-
-    .form{
-        float: left;
-        margin-left: 6px;
-        width: 55%;
-        margin-top:300px;
-    }
-    .form h1{
-        font-size: 
-    }
-    ::placeholder{
-        font-size: 18px;
-    }
-    .form button{
-    margin-left: 75px;
-    width: 60%;
-    height: 50px; 
-    }
-    .btnn{
-        font-size: 28px;
-    }
-    h2{
-        font-size: 23px;
-        margin-top: 30px;
-    }
-    h2 a{
-        font-size: 23px;
-    }
-    .icons a{
-        margin-left: 30px;
-        font-size: 30px;
-    }
-    .icons{
-        margin-top: 50px;
-    }
-    .media a{
-        font-size: 35px;
-    }
-    .btn a button{
-        margin-top: 35px;
-        height: 40px;
-        width: 120px;
-        font-size: 20px;
-    }
-}     
-            
-        
-    
-
-
-@media screen and (min-width: 1024px) {
-    .nav-bar{
-        width: 100%;
-        height: 100px;
-    }
-    .main{
-        width: 100%;
-        height: 100vh;
-    }
-    
-
-    ul li a{
-     
-        font-size: 15px;
-    }
-    .content h1{
-        font-size: 35px;
-    }
-    .front{
-        font-size: 20px;
-    }
-    .content p{
-       
-        font-size: 17px;
-    }
-    
-
-
-    .form{
-        float: right;
-        margin-left: 550px;
-        width: 26%;
-        margin-top: -230px;
-        height: 55%;
-    }
-    .form h1{
-        font-size: 25px;
-        margin-top: -1px; 
-    }
-    ::placeholder{
-        font-size: 11.5px;
-    }
-    .form button{
-    margin-left: 60px;
-    width: 50%;
-    height: 30px;
-    }
-    .btnn{
-        font-size: 20px;
-    }
-    h2{
-        font-size: 14px;
-        margin-top: 10px;
-    }
-    h2 a{
-        font-size: 15px;
-    }
-    .icons a{
-        margin-left: 20px; 
-        font-size: 24px;
-    }
-    .icons{
-        margin-top: 20px;
-    }
-    .media a{
-        font-size: 25px;
-    }
-    .btn a button{
-        margin-top: 25px;
-        height: 34px;
-        width: 100px; 
-        font-size: 14px;
-    }
-}     
-@media screen and (min-width: 1280px ){
-    .form{
-        height: 45%;
-        margin-left: 690px;
-        float: right;
-        padding: 25px 5px 20px;
-        
-    }
-    .form button{
-        margin-left: 80px;
-        height: 35px;
-    }
-    h2{
-        margin-top: 15px;
-        font-size: 16px;
-    }
-    h2 a{
-        font-size: 16px;
-    }
-    ::placeholder{
-        font-size: 15px;
-    }
-    
-}
-            
-        
-    
-
-
-
-            
-        
-    
-
-
-            
-        
-    
-
