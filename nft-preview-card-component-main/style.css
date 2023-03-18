@@ -1,0 +1,85 @@
+*{
+    padding: none;
+    margin: none;
+}
+.all{
+    background-color:rgb(28, 28, 55);
+    width: 1200px;
+    height: 750px;
+    padding: 60px;
+}
+.container{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgb(15, 88, 199);
+    margin-left: 320px;
+    padding-top: 20px;
+    
+}
+.sub-container{
+    border-radius: 10px;
+    background-color: red;
+    width: 350px;
+    height: 350px;
+    margin-left: 25px;
+    
+}
+.sub-container img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+.info h2{
+    margin-left: 25px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.info p{
+    margin-left: 25px;
+    color:rgb(113, 171, 223);
+    font-weight: bold;
+    
+}
+.asset{
+    margin-left: 25px;
+    margin-top: 10px;
+    display: flex;
+}
+.asset img{
+    margin-right: 10px;
+    margin-top: 25px;
+}
+.eth{
+    color:aqua;
+    font-size: 14px;
+    font-weight: bold;
+}
+.time{
+    margin-left: 150px;
+}
+.tim{
+color: white;
+font-weight: bold;
+}
+.line{
+    width: 350px;
+   background-color: rgb(113, 171, 223);
+   margin-top: 20px;
+   
+}
+.foot img{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.foot{
+    display: flex;
+}
+.name{
+    color: white;
+}
